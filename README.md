@@ -6,7 +6,7 @@
 &nbsp; 
 
 ## Terraform/
-    Terraform modules for Datadog monitors, pubsub logging, service account and Windows instance  
+    Terraform modules for Datadog monitors, pubsub logging and service account
 
 &nbsp; 
 
