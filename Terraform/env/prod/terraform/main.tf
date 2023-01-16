@@ -73,11 +73,3 @@ module "datadog_monitors" {
   datadog_api_key = data.google_kms_secret.datadog_api_key.plaintext
   datadog_app_key = data.google_kms_secret.datadog_app_key.plaintext
 }
-
-module "windows_instance" {
-  source              = "../../../terraform/modules/windows_instance"
-  gcp-project-id      = var.gcp-project-id
-  gcp_project_number  = var.gcp_project_number
-  environment         = var.environment
-  zone                = "europe-north1-a"
-}
