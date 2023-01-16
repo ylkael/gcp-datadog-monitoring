@@ -1,11 +1,11 @@
 # Datadog monitoring for Kubernetes
 
-## Kubernetes/datadog_agent
+### Kubernetes/datadog_agent
     Setup for Kubernetes Datadog Agent for metric log collection
 
 &nbsp; 
 
-## Terraform/
+### Terraform/
     Terraform modules for Datadog monitors, pubsub logging and service account
 
 &nbsp; 
